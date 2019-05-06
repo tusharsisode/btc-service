@@ -1,6 +1,6 @@
 # BTC MicroService with Spring Boot, AWS Elastic Beanstalk and Docker
 
-This is BTC MicroService built using Spring Boot and is deployed on AWS Elastic Beanstalk. Similar to the steps described for LTC service, even this service can be modified and deployed to AWS Lambda to make it serverless. The API reads the backend application data directly from resources/json/btc.json file, however the architecture is easily modifiable to plug with backend MongoDB. For testing purposes, steps are also given to deploy locally or as a container on docker.
+This is BTC MicroService built using Spring Boot and is deployed on AWS Elastic Beanstalk using Docker. Similar to the steps described for LTC service, even this service can be modified and deployed to AWS Lambda to make it serverless. The API reads the backend application data directly from resources/json/btc.json file, however the architecture is easily modifiable to plug with backend MongoDB. For testing purposes, steps are also given to deploy locally or as a container on docker.
 
 # Deploy to AWS Elastic Beanstalk
 
