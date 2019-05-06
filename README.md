@@ -3,6 +3,7 @@
 This is BTC Micro-Service built using Spring Boot and is deployed on AWS Elastic Beanstalk using Docker. This service is used for fetching BTC profit details for a given date. Similar to the steps described for LTC service, even this service can be modified and deployed to AWS Lambda to make it serverless. The API reads the backend application data directly from resources/json/btc.json file, however the architecture is easily modifiable to plug with backend MongoDB as well. For testing purposes, steps are also given to deploy locally or as a container on docker. 
 
 For directly accessing and testing the service that is deployed on AWS Elastic Beanstalk, please use below link. The backend json file resources/json/btc.json contains the data for three dates viz. 07-May-2019, 08-May-2019 and 09-May-2019. More data can be added to this json file for testing purposes. Please modify input date paramter (MM/DD/YYYY) accordingly in the below URL to see the results.
+
 http://btc-service.w2dnkmgtrc.us-west-2.elasticbeanstalk.com/btc?inputDate=05/08/2019
 
 # Deploy to AWS Elastic Beanstalk
