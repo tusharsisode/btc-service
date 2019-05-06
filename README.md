@@ -56,4 +56,4 @@ Please install and run docker locally if not already done. To build the image, f
     
 # Test
 
-    curl http://localhost:9090/btc?inputDate=05/08/2018
+    curl http://localhost:8081/btc?inputDate=05/08/2019
